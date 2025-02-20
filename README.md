@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/IgWJanRF)
 # Stats preview card component
 
 ![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
@@ -73,3 +74,12 @@ Once you've added your information to the template, delete this file and rename 
 | Despliegue                  | 1          |
 
 **Have fun building!** 🚀
+
+### Entrega
+**Nombre:** Martin Ignacio Pereira Alcalde
+
+**Codigo:** 320193
+
+## Link
+https://dsaw-2025-i.github.io/tailwind-bootstrap-mpereira11/
+

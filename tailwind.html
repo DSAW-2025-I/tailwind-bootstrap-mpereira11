@@ -2,31 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
 
+  <title>Tailwind | Stats preview card component</title>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Tailwind | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Coded by <a href="#">Your Name Here</a>.
+<body class="h-screen w-full bg-[hsl(233,47%,7%)] flex flex-col justify-center items-center"> 
+  
+  <div class="container bg-[hsl(244,38%,16%)] rounded-lg flex flex-col-reverse md:flex-row mx-auto w-full max-w-[375px] md:max-w-[55%] h-auto md:h-[50%]">
+    
+    <div class="flex-1 p-6 md:p-10 flex flex-col justify-center text-center md:text-left">
+      <h1 class="text-[hsl(0,0%,100%)] text-xl md:text-3xl font-bold mb-4 font-[Inter]">
+        Get <span class="text-[hsl(277,64%,61%)]">insights</span> that help your business grow.
+      </h1>
+      <p class="text-[hsla(0,0%,100%,0.75)] mb-6 font-[Lexend Deca] text-[15px]">
+        Discover the benefits of data analytics and make better decisions regarding 
+        revenue, customer experience, and overall efficiency.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-2 text-center md:text-left">
+        <div>
+          <h2 class="text-[hsl(0,0%,100%)] text-xl font-bold font-[Inter]">10k+</h2>
+          <p class="text-[hsla(0,0%,100%,0.6)] text-sm uppercase tracking-widest font-[Lexend Deca]">Companies</p>
+        </div>
+        <div>
+          <h2 class="text-[hsl(0,0%,100%)] text-xl font-bold font-[Inter]">314</h2>
+          <p class="text-[hsla(0,0%,100%,0.6)] text-sm uppercase tracking-widest font-[Lexend Deca]">Templates</p>
+        </div>
+        <div>
+          <h2 class="text-[hsl(0,0%,100%)] text-xl font-bold font-[Inter]">12M+</h2>
+          <p class="text-[hsla(0,0%,100%,0.6)] text-sm uppercase tracking-widest font-[Lexend Deca]">Queries</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="flex-1 relative h-[200px] md:h-auto">
+      <img src="./images/image-header-mobile.jpg" class="w-full h-full object-cover md:hidden rounded-br-lg rounded-tr-lg"/>
+      <img src="./images/image-header-desktop.jpg" class="w-full h-full object-cover hidden md:block rounded-br-lg rounded-tr-lg"/>
+      <div class="absolute inset-0 bg-[hsl(280,80%,35%)] opacity-50 rounded-br-lg rounded-tr-lg"></div>
+    </div>
   </div>
+
+  <div class="attribution text-white pb-4 text-sm md:text-base text-center font-[Lexend Deca]">
+    Coded by <a href="https://github.com/mpereira11" class="underline">Martin Pereira Alcalde</a>.
+  </div>
+
 </body>
 </html>
