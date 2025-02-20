@@ -75,7 +75,11 @@ Once you've added your information to the template, delete this file and rename 
 
 **Have fun building!** 🚀
 
+### Entrega
+**Nombre:** Martin Ignacio Pereira Alcalde
 
-### LINK
+**Codigo:** 320193
+
+## Link
 https://dsaw-2025-i.github.io/tailwind-bootstrap-mpereira11/
 
